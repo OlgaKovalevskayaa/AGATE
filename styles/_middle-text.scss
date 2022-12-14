@@ -1,0 +1,25 @@
+.middle-text {
+    font-weight: $weight-light;
+    font-size: 1.5rem;
+    line-height: 41px;
+}
+
+@media screen and (max-width: 1024px) {
+    .middle-text {
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .middle-text {
+        line-height: 27px;
+        font-size: $base-font;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .middle-text {
+        font-size: 0.9rem;
+    }
+}

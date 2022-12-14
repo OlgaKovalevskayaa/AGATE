@@ -1,0 +1,63 @@
+.banner {
+    background-color: rgba(0, 0, 0, .48);
+    padding: 218px 0 185px;
+    &__heading {
+        font-size: 4.25rem;
+        letter-spacing: 0.07em;
+        line-height: 103px;
+        color: $primary-color;
+        margin: 0 auto;
+        max-width: 920px;
+    }
+    &__paragraph {
+        font-size: 1.25rem;
+        line-height: 31px;
+        color: $primary-color;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding: 183px 0 153px;
+        &__heading {
+            font-size: 3rem;
+            line-height: 73px;
+            max-width: 697px;
+        }
+        &__paragraph {
+            margin: 35px 0 63px;
+            font-weight: 400;
+            font-size: 0.9rem;
+            line-height: 23px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 171px 0 99px;
+        &__heading {
+            font-size: 2.5rem;
+            line-height: 58px;
+            max-width: 329px;
+        }
+        &__paragraph {
+            margin-bottom: 66px;
+        }
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .banner {
+        padding: 80px 0 60px;
+        &__heading {
+            font-size: 2.1rem;
+            line-height: 50px;
+            max-width: 290px;
+        }
+        &__paragraph {
+            margin: 35px 0 63px;
+        }
+    }
+}

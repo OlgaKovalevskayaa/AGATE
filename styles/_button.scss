@@ -1,0 +1,24 @@
+.button--white {
+    @include button($primary-color);
+    margin-top: 60px;
+    border-color: $primary-color;
+    color: $primary-color;
+}
+
+.button--black {
+    @include button(black);
+    border-color: black;
+    color: black;
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .button {
+        width: 248px;
+        height: 48px;
+        font-size: 0.85rem;
+        line-height: 48px;
+    }
+}

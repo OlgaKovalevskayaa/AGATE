@@ -1,0 +1,19 @@
+.subtitle {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .subtitle {
+        font-size: 1.75rem;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subtitle {
+        font-size: 1.5rem;
+        line-height: 38px;
+    }
+}

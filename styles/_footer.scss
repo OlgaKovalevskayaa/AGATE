@@ -1,0 +1,45 @@
+.footer {
+    background: #262626;
+    &__heading {
+        font-size: 3.25rem;
+        line-height: 81px;
+        color: $primary-color;
+    }
+    &__paragraph {
+        font-weight: $weight-light;
+        font-size: 1.25rem;
+        line-height: 31px;
+        color: #B1B1B1;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        padding: 80px 0 78px;
+        &__heading {
+            font-size: 2.5rem;
+            line-height: 63px;
+        }
+        &__paragraph {
+            margin-bottom: 47px;
+            font-size: $base-font;
+            line-height: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 70px 0 65px;
+        &__heading {
+            font-size: 2rem;
+            line-height: 50px;
+        }
+        &__paragraph {
+            margin-bottom: 35px;
+            font-size: 0.9rem;
+            line-height: 23px;
+        }
+    }
+}
